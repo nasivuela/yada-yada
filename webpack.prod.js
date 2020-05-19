@@ -12,7 +12,7 @@ module.exports = merge(common, {
     filename: "[name].[hash:5].js",
     chunkFilename: "[id].[hash:5].css"
   },
-
+asdf
   optimization: {
     minimizer: [
       new UglifyJsPlugin({
