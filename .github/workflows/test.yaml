@@ -1,7 +1,8 @@
 name: Test
 
 on:
-  [check_run]
+  check_run:
+    types: [completed]
 
 defaults:
   run:
