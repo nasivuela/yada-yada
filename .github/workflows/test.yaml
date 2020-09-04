@@ -1,9 +1,7 @@
 name: Test
 
 on:
-  check_suite:
-    types: [completed]
-
+  workflow_dispatch
 defaults:
   run:
     shell: bash
