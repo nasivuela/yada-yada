@@ -6,5 +6,6 @@ module.exports = {
       console.log('Hello world from onPreBuild event!');
       console.log("shhh", SH);
       console.log("context", CONTEXT);
+      
     },
   }
